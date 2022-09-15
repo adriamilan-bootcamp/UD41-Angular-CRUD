@@ -8,7 +8,7 @@ import { Observable } from 'rxjs';
 })
 export class CharactersService {
 
-  baseUrl:string = "http://localhost:3000"
+  baseUrl:string = "https://faker-rick-morty-api.herokuapp.com"
 
   constructor(private http: HttpClient) { }
 
